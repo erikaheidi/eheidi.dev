@@ -1,0 +1,21 @@
+<div class="mb-10 py-4 px-4 bg-gray-50 shadow-sm relative">
+    {% if content.frontMatterHas('cover_image') %}
+        <a href="{{ site_root() }}{{ content.getLink() }}" title="Read the full article: {{ content.frontMatterGet('title') }}">
+            <img class="w-full rounded-sm" src="{{ content.frontMatterGet('cover_image')|raw }}" alt="cover image">
+        </a>
+    {% endif %}
+
+    <h1 class="text-xl lg:text-2xl mt-4 mb-1 text-gray-600 hover:text-blue-800">
+        <a href="{{ site_url() }}/{{ content.getLink() }}" title="Read the full article: {{ content.frontMatterGet('title') }}">{{ content.frontMatterGet('title') ?? content.title }}</a>
+    </h1>
+    <p class="text-sm text-gray-400 mb-4">
+        {% if content.frontMatterHas('twitter_author') %}
+            By <a class="font-bold text-gray-800 underline" href="https://twitter.com/{{ content.frontMatterGet('twitter_author') }}">@{{ content.frontMatterGet('twitter_author') }}</a>
+        {% endif %}
+        on {{ content.getDate() }}</p>
+    <p class="text-md text-gray-500 mb-6">
+        {{ content.frontMatterGet('description') ?? 'No description provided.' }}
+    </p>
+
+    <div class="absolute inset-x-0 bottom-0 text-right text-gray-600 m-4"><a href="{{ site_url() }}/{{ content.getLink() }}" class="text-fuchsia-600 hover:text-fuchsia-500" title="Read the full article: {{ content.frontMatterGet('title') }}">Read Article <span class="fa fa-arrow-alt-circle-right"></span></a></div>
+</div>

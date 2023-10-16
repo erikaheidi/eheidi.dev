@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %} {{ site_title() }} {% endblock %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% block description %} {{ site_description() }} {% endblock %}">
+    {% block meta %}
+        <meta name="author" content="@erikaheidi">
+        <meta property="og:title" content="{{ site_title() }}">
+        <meta property="og:description" content="{{ site_description() }}">
+        <meta property="og:site_name" content="{{ site_title() }}">
+        <meta property="og:type" content="article">
+        <meta property="og:image" content="{{ site_url() }}/img/default_cover_image.png">
+        <meta property="og:image:url" content="{{ site_url() }}/img/default_cover_image.png">
+        <meta property="og:image:alt" content="{{ site_title() }}">
+        <meta property="og:url" content="https://onepagers.dev">
+
+        <meta name="twitter:site" content="{{ site_title() }}">
+        <meta name="twitter:title" content="{{ site_title() }}">
+        <meta name="twitter:description" content="{{ site_description() }}">
+        <meta name="twitter:creator" content="@erikaheidi">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="{{ site_url() }}"/>
+        <meta name="twitter:image" content="{{ site_url() }}/img/default_cover_image.png">
+        <meta name="twitter:image:alt" content="{{ site_title() }}">
+    {% endblock %}
+
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="96x96">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" sizes="192x192">
+
+    <link href="{{ site_root() }}css/app.css" rel="stylesheet">
+
+    {% block includes %}
+    {% endblock %}
+</head>
+
+<body>
+
+    <div id="content" class="mx-auto">
+        <div class="grid grid-cols-1 print:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div class="grid grid-cols-1 min-[1920px]:grid-cols-2 print:hidden">
+                <div class="bg-gray-50 border-r-2 border-r-gray-100 px-2 py-4">
+                    {% include '_partials/sidebar.html.twig' %}
+                </div>
+            </div>
+            <div class="lg:col-span-3">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+{% include '_partials/footer.html.twig' %}
+
+<script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+<script type="text/javascript" src="{{ site_root() }}js/prism.js"></script>
+<script type="text/javascript" src="{{ site_root() }}js/app.js"></script>
+</body>
+
+</html>
+

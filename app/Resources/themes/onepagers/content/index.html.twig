@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<div class="grid lg:grid-cols-4">
+    <div class="mb-10 py-10 px-6 col-span-2 lg:col-span-3">
+    {% for type in content_types() %}
+        {% if type.slug != 'p' %}
+            <h2 class="text-2xl mb-4 font-semibold border-b-2 border-b-gray-50"><a href="{{ site_root() }}{{ type.slug }}" title="{{ type.title|replace({'_': ' '}) }}">{{ type.title|replace({'_': ' '}) }}</a></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {% for post in table_of_contents(type)|reverse|slice(0, 4) %}
+                    {% include '_partials/snippet.html.twig' with { 'content': post } %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endfor %}
+    </div>
+</div>
+{% endblock%}
+

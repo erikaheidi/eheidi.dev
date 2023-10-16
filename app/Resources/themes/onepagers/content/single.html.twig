@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ content.frontMatterGet('title') ?? content.title }} | {{ site_title() }} {% endblock %}
+{% block meta %}
+    <meta name="author" content="@erikaheidi">
+    <meta property="og:title" content="{{ content.frontMatterGet('title') ?? content.title }}">
+    <meta property="og:description" content="{{ content.frontMatterGet('description') }}">
+    <meta property="og:site_name" content="{{ site_title() }}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="{{ content.frontMatterGet('cover_image') ?? "#{ site_url() }/img/default_cover_image.png" }}">
+    <meta property="og:image:url" content="{{ content.frontMatterGet('cover_image') ?? '/img/default_cover_image.png' }}">
+    <meta property="og:image:alt" content="{{ content.frontMatterGet('title') ?? content.title }}">
+    <meta property="og:url" content="{{ site_url() }}/{{ content.getLink() }}">
+
+    <meta name="twitter:site" content="{{ site_title() }}">
+    <meta name="twitter:title" content="{{ content.frontMatterGet('title') ?? content.title }}">
+    <meta name="twitter:description" content="{{ content.frontMatterGet('description') }}">
+    <meta name="twitter:creator" content="{{ content.frontMatterGet('twitter_author') ?? '@erikaheidi'}}">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="{{ site_url() }}/{{ content.getLink() }}"/>
+    <meta name="twitter:image" content="{{ content.frontMatterGet('cover_image') ?? "#{ site_url() }/img/default_cover_image.png" }}">
+    <meta name="twitter:image:alt" content="{{ content.frontMatterGet('title') }} - {{ site_title() }}">
+{% endblock %}
+
+{% block content %}
+
+
+    {% include '_partials/post.html.twig' with { 'content': content, 'full': true } %}
+
+
+{% endblock%}
+

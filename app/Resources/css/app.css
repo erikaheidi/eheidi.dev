@@ -1,0 +1,27 @@
+@import "../../../node_modules/tailwindcss/base.css";
+@import "../../../node_modules/tailwindcss/components.css";
+@import "../../../node_modules/tailwindcss/utilities.css";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import "custom.css";
+@import "prism.css";
+
+@layer components {
+    .article-toc {
+        @apply float-right py-10 px-4 ml-5 min-h-full;
+    }
+
+    .article-toc h3 {
+        @apply text-xl text-gray-500 mb-5;
+    }
+    .article-toc ul li a {
+        @apply block text-fuchsia-500 mb-3 text-lg;
+    }
+
+    .article-toc ul li a:hover {
+        @apply text-fuchsia-400;
+    }
+
+    .article-toc ul ul ul li a {
+        @apply pl-5;
+    }
+}
