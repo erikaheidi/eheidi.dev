@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159156016-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159156016-1');
+    </script>
     <title>{% block title %} {{ site_title() }} {% endblock %}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +23,7 @@
         <meta property="og:image" content="{{ site_url() }}/img/default_cover_image.png">
         <meta property="og:image:url" content="{{ site_url() }}/img/default_cover_image.png">
         <meta property="og:image:alt" content="{{ site_title() }}">
-        <meta property="og:url" content="https://onepagers.dev">
+        <meta property="og:url" content="{{ site_url() }}">
 
         <meta name="twitter:site" content="{{ site_title() }}">
         <meta name="twitter:title" content="{{ site_title() }}">
@@ -37,9 +46,7 @@
     {% block includes %}
     {% endblock %}
 </head>
-
 <body>
-
     <div id="content" class="mx-auto">
         <div class="grid grid-cols-1 print:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <div class="grid grid-cols-1 min-[1920px]:grid-cols-2 print:hidden">
