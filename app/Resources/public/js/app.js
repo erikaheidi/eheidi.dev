@@ -41,5 +41,25 @@ window.onload = (event) => {
     }
 
     document.getElementById("article-toc").innerHTML += "<h3>Table of Contents</h3>" + toc;
+    async function copyContent() {
+        try {
+            await navigator.clipboard.writeText('window.location.href');
+            console.log('Content copied to clipboard');
+            /* Resolved - text copied to clipboard successfully */
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+            /* Rejected - text failed to copy to the clipboard */
+        }
+    }
+
+   /* const copyContent = async () => {
+        try {
+            await navigator.clipboard.writeText(window.location.href);
+            console.log('Content copied to clipboard');
+            document.getElementById('copyMessage').innerHTML = "URL copied to clipboard."
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+        }
+    }*/
 
 }

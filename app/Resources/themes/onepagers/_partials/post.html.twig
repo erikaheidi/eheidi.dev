@@ -45,7 +45,8 @@
 
         <div class="ml-4 mt-4">
             <button class="px-6 py-4 m-2 bg-fuchsia-600 text-white rounded-2xl object-center" onclick="window.print();return false;">Print</button>
-            <button class="px-6 py-4 m-2 bg-fuchsia-600 text-white rounded-2xl object-center">Share</button>
+            <button class="px-6 py-4 m-2 bg-fuchsia-600 text-white rounded-2xl object-center" onclick="navigator.clipboard.writeText(window.location.href);document.getElementById('copyMessage').innerText='URL copied to clipboard.'">Share</button>
+            <p class="text-sm text-gray-600" id="copyMessage"></p>
         </div>
     </div>
 </div>
