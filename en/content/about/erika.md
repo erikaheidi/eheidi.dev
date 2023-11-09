@@ -1,6 +1,6 @@
 ---
 title: About Erika
-description: I write about the things I like. Coding, tech writing, Linux, devOps, 3D Printing, and other tech stuff...
+description: I write about the things I like. Coding, tech writing, Linux, devOps, 3D-printing Printing, and other tech stuff...
 tags: about
 ---
 
