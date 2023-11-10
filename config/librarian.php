@@ -16,7 +16,7 @@ return [
         'post' => __DIR__ . '/../content/post',
         'page' => __DIR__ . '/../content/page',
     ],
-    'rss_feed' => envconfig('RSS_LINK', 'feed'),
+    'rss_feed' => php_sapi_name() !== 'cli' ? 'feed' : 'feed.rss',
     // Optional: Social links that show up on the top right
     'social_links' => [
         'Twitter' => envconfig('LINK_TWITTER', 'https://twitter.com/erikaheidi'),
