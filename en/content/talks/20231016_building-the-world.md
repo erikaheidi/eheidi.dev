@@ -2,6 +2,7 @@
 title: Building the World
 description: In this talk I present Wolfi, the Linux undistro built for containers.
 tags: wolfi, linux
+cover_image: https://cdn.erikaheidi.com/blog/building-the-world.png
 ---
 
 ## Abstract
@@ -9,6 +10,10 @@ tags: wolfi, linux
 As the container ecosystem matures, there is an increased need for new standards and runtime environments that take into consideration security and provenance concerns, driving the next generation of tools and recommended practices to build container images.
 
 In this talk, you'll learn everything about Wolfi, a Linux "undistro" built for containers. We'll see why it was created and how it is maintained, using the Wolfi PHP package to demonstrate our open source apk build system.
+
+## Video
+
+{% youtube IoKyOgDzJd8 %}
 
 ## Slides
 

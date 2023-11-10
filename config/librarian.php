@@ -19,10 +19,14 @@ return [
     'rss_feed' => php_sapi_name() !== 'cli' ? 'feed' : 'feed.rss',
     // Optional: Social links that show up on the top right
     'social_links' => [
-        'Twitter' => envconfig('LINK_TWITTER'),
-        'Github' => envconfig('LINK_GITHUB', 'https://github.com/minicli/librarian'),
-        'YouTube' => envconfig('LINK_YOUTUBE'),
+        'Twitter' => envconfig('LINK_TWITTER', 'https://twitter.com/erikaheidi'),
+        'Github'  => envconfig('LINK_GITHUB', 'https://github.com/erikaheidi'),
+        'YouTube' => envconfig('LINK_YOUTUBE', 'https://youtube.com/c/erikaheidi'),
         'LinkedIn' => envconfig('LINK_LINKEDIN'),
         'Twitch' => envconfig('LINK_TWITCH'),
     ],
+    'parser_params' => [
+        'youtube' => [ 'width' => 900, 'height' => 400 ]
+    ]
+
 ];
