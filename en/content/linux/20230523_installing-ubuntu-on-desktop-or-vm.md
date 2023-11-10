@@ -44,11 +44,11 @@ Depending on your computer and the setup program it runs, you will have to press
 
 With my Lenovo Thinkpad laptop, I need to press `F12` as soon as the computer beeps after rebooting, and this will let me choose which device to boot. My old, generic USB stick is recognized as "USB HDD:VendorCo ProductCode".
 
-![Choosing the boot disk on a Lenovo Thinkpad Carbon](https://onlinux.ams3.digitaloceanspaces.com/ubuntu2204_install/lenovo_boot.jpg)
+![Choosing the boot disk on a Lenovo Thinkpad Carbon](https://onlinux.erikaheidi.com/ubuntu2204_install/lenovo_boot.jpg)
 
 When the computer successfully starts up the boot program from your Ubuntu disk, you'll then see the **Grub boot screen**.
 
-![Starting the Ubuntu installation](https://onlinux.ams3.digitaloceanspaces.com/ubuntu2204_install/step1_grub.png)
+![Starting the Ubuntu installation](https://onlinux.erikaheidi.com/ubuntu2204_install/step1_grub.png)
 
 Choose "Try or install Ubuntu" to proceed.
 
@@ -56,16 +56,16 @@ Choose "Try or install Ubuntu" to proceed.
 
 You'll get a screen like the following, showcasing the new Ubuntu desktop installer:
 
-![Step 2](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step1.png)
+![Step 2](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step1.png)
 
 You may want to try Ubuntu before installing it. In that case, use the option on the left. To install Ubuntu, click on "Install Ubuntu".
 
 ## Step 3: Choose the language and installation options
 The first screen will be to choose your language, then your keyboard layout and language.
-![Step 3](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step2.png)
+![Step 3](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step2.png)
 
 Once you confirm that, you'll be taken to a screen where you'll have a few options regarding updates. Leave "Normal installation" checked, and check both options in the "Other options" area to make sure your installation is able to download the latest updates and also third-party drivers whenever necessary.
-![Step 4](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step4.png)
+![Step 4](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step4.png)
 
 Click on "Continue" to move on.
 
@@ -73,36 +73,36 @@ Click on "Continue" to move on.
 
 For improved security, I strongly advise anyone installing Ubuntu these days to make use of their full disk encryption feature. When you get to the "Installation Type" screen, select `Advanced Features`.
 
-![Step 5](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step5.png)
+![Step 5](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step5.png)
 
 On the popup that will appear, choose `Use LVM with the new Ubuntu installation`, then check the `Encrypt the new Ubuntu installation for security` option.
 
 Once you confirm that, you'll be asked to choose a security key. You will be prompted to provide this security key every time you restart your computer, and if you lose this key you will be 100% locked out. Make sure to choose a good one!
 
-![Step 6](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step6.png)
+![Step 6](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step6.png)
 
 ### Confirming disk changes
 You'll then be asked to confirm hard disk settings. Click "Install" to confirm the change to your disks.
 
-![Step 7](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step7.png)
+![Step 7](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step7.png)
 
 ## Step 4: User Info and Appearance
 Next, set up your account on this system. Set your name, the hostname for the system, your username and password.
 
-![Step 8](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step8.png)
+![Step 8](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step8.png)
 
 Choose your default theme from a choice of "light" or "dark".
 
-![Step 9](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step9.png)
+![Step 9](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step9.png)
 
 ## Step 5: Finish Installation
 Now you can sit back and wait while Ubuntu is finished being installed on your machine.
 
-![Step 10](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step10.png)
+![Step 10](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step10.png)
 
 When the installation is finished, you'll get a screen like this, with a button to "Restart now".
 
-![Step 11](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step11.png)
+![Step 11](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step11.png)
 
 Click on the "Restart now" button. When prompted, remove the boot device / usb stick and press `ENTER` to restart the system.
 
@@ -111,15 +111,15 @@ After the computer restarts, you should be greeted by the Grub boot screen again
 ## Step 6: Unlock the disk to access your fresh Ubuntu system
 If you followed all steps in this guide and chose full disk encryption, you will be prompted to provide your secure key now. Type the key and hit `ENTER`.
 
-![Step 11-2](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step13.png)
+![Step 11-2](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step13.png)
 
 You should see a message indicating that the disk was successfully unencrypted. After that, your Ubuntu system will be mounted, and you will be greeted with the login screen. Provide your login and password to access your new Ubuntu 23.04 system.
 
-![Step 12](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step13.png)
+![Step 12](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step13.png)
 
 Your system should now be fully functional.
 
-![Step 12](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step14.png)
+![Step 12](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step14.png)
 
 ## Step 7: Customize your Ubuntu 23.04 Appearance
 
@@ -128,7 +128,7 @@ In this section I will share the customization I made for my own system. Feel fr
 
 Go to `Settings -> Appearance` to customize the appearance of your new Ubuntu 23.04.
 
-![Customizing Ubuntu 23.04 appearance](https://cdn.eheidi.dev/ubuntu2304/installation-guide/step15.png)
+![Customizing Ubuntu 23.04 appearance](https://onlinux.erikaheidi.com/ubuntu2304/installation-guide/step15.png)
 
 I particularly loved the default dark mode with purple accents, and the Lobster on a rock wallpaper. What do you think?
 
