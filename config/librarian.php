@@ -20,13 +20,13 @@ return [
     // Optional: Social links that show up on the top right
     'social_links' => [
         'Twitter' => envconfig('LINK_TWITTER', 'https://twitter.com/erikaheidi'),
-        'Github'  => envconfig('LINK_GITHUB', 'https://github.com/erikaheidi'),
+        'Github' => envconfig('LINK_GITHUB', 'https://github.com/erikaheidi'),
         'YouTube' => envconfig('LINK_YOUTUBE', 'https://youtube.com/c/erikaheidi'),
         'LinkedIn' => envconfig('LINK_LINKEDIN'),
         'Twitch' => envconfig('LINK_TWITCH'),
     ],
     'parser_params' => [
-        'youtube' => [ 'width' => 900, 'height' => 400 ]
-    ]
+        'youtube' => ['width' => 900, 'height' => 400],
+    ],
 
 ];
