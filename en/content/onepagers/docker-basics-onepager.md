@@ -8,6 +8,8 @@ cover_image: https://cdn.erikaheidi.com/blog/dev-env-docker.png
 
 Docker is a software used to build and run [containers](https://edu.chainguard.dev/software-security/what-are-containers/). Unlike virtual machines, containers do not emulate an entire operating system, relying on the host OS to provide an isolated filesystem that consumes less resources than traditional VMs, but still provide a fully functional runtime based on a chosen operating system.
 
+![The container model as a high-level overview](https://cdn.erikaheidi.com/blog/container-model-graph.png)
+
 The build steps necessary to (re)create a Docker container image are defined in a [Dockerfile](https://docs.docker.com/engine/reference/builder/#dockerfile-reference). This file may contain special instructions to install packages, create users, and run arbitrary system commands.
 
 Container images can be hosted in a remote registry that allow images to be pulled from different locations. The default Docker registry is [Docker Hub](https://hub.docker.com), but there are many others. When using images from registries other than Docker Hub, you'll need to specify the registry URL along the image identifier.
