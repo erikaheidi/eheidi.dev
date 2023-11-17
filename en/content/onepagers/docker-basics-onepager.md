@@ -171,3 +171,6 @@ Unused resources accumulate with time, so it's good to run this command every on
 The [What are Containers?](https://edu.chainguard.dev/software-security/what-are-containers/) guide from Chainguard Academy has a nice high level overview of containers and images. For more technical specifications and reference docs, check the official [Docker Documentation](https://docs.docker.com/get-started/overview/) which covers all components in the Docker container ecosystem. 
 
 For considerations about container security, check this Academy guide on [Selecting a Base Image](https://edu.chainguard.dev/software-security/selecting-a-base-image/) and the introduction to [Software Supply Chain Security](https://edu.chainguard.dev/software-security/what-is-software-supply-chain-security/), which should give you a better understanding of security considerations when bringing your images to Production.
+
+## Bonus: Docker Cheat Sheet
+![Docker Cheat Sheet](https://cdn.erikaheidi.com/blog/docker-cheat-sheet.png)
