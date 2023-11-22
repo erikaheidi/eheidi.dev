@@ -1,6 +1,6 @@
 ---
 title: Sobre a Erika
-description: Eu escrevo sobre as coisas que gosto de fazer em meu tempo livre. Código, Linux, Design e Impressão 3D, e mais umas coisas ai...
+description: Eu escrevo sobre assuntos técnicos que me interessam. Código, Linux, Design e Impressão 3D, e mais umas coisas ai...
 tags: about
 ---
 
