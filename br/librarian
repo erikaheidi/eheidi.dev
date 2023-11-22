@@ -10,7 +10,7 @@ require __DIR__ . '/../vendor/autoload.php';
 use Minicli\Exception\CommandNotFoundException;
 use Minicli\App;
 
-$app = new App(null, null, __DIR__);
+$app = new App(require __DIR__ . '/config.php');
 $app->setSignature('
  _      ____  ____   ____    ____  ____   ____   ____  ____
 | |    |    ||    \ |    \  /    ||    \ |    | /    ||    \
