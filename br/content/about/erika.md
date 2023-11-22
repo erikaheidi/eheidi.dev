@@ -1,25 +1,26 @@
 ---
-title: About Erika
-description: I write about things that interest me. Coding, Linux, 3D Printing, and other tech stuff...
+title: Sobre a Erika
+description: Eu escrevo sobre as coisas que gosto de fazer em meu tempo livre. Código, Linux, Design e Impressão 3D, e mais umas coisas ai...
 tags: about
 ---
 
-## Hi there 👋
-I'm Erika Heidi (she/her), a creative developer and technical writer passionate about open source, Linux, and PHP. I'm also a [published author](https://leanpub.com/vagrantcookbook), [conference speaker](https://www.youtube.com/watch?v=l0jb-N5H52A), and have been nominated [GitHub Star](https://stars.github.com/profiles/erikaheidi).
+## Oie 👋
+Eu sou a Erika Heidi (ela/dela), uma desenvolvedora e escritora técnica apaixonada por código aberto, Linux, e PHP. Sou também [autora](https://leanpub.com/vagrantcookbook), [palestrante](https://www.youtube.com/watch?v=l0jb-N5H52A), e em 2020 fui nomeada [GitHub Star](https://stars.github.com/profiles/erikaheidi) por minhas contribuições com a comunidade open source. 
 
-I currently work as Developer Experience Engineer at [Chainguard](https://chainguard.dev), where I create educational resources linked to Supply Chain Security. Previously, I worked as Technical Writer at DigitalOcean, where I wrote [tutorials and other educational resources about Linux, systems administration, devOps, and PHP / Laravel](https://www.digitalocean.com/community/users/erikaheidi).
+Trabalho atualmente como Developer Experience Engineer na [Chainguard](https://chainguard.dev), aonde crio conteúdo educacional relacionado a Software Supply Chain Security - uma área relativamente nova na engenharia de segurança da informação que visa estabelecer processos e ferramentas para melhorar a segurança na cadeia de dependências de software. Antes disso, trabalhei vários anos como escritora técnica na DigitalOcean, onde publiquei dezenas de [tutoriais e outros recursos educacionais sobre Linux, administração de sistemas, devOps, e PHP / Laravel](https://www.digitalocean.com/community/users/erikaheidi).
 
-I thoroughly enjoy working on experimental applications and small side projects. If coders had a style, I'd say mine is minimalist and/or indie.
+Eu adoro trabalhar em projetos criativos e experimentais. Se desenvolvedores tivessem um estilo, eu diria que o meu seria minimalista e _indie_.
 
-Open source has always taken a special place in my heart, and what I like the most about it is the aspect of "learning in public", essentially sharing what you are working on and feel excited about, since it may be useful for other folks even if just as an inspiration. Here's some projects I'm excited about right now:
+Código aberto sempre ocupou um lugar especial no meu coração, principalmente pelo aspecto de "aprender em público" e compartilhar o seu trabalho à medida que você vai progredindo - já que pode ser útil para outras pessoas, mesmo que seja apenas por inspiração. Esses são alguns dos projetos que criei e ainda mantenho:
 
-- [Minicli](https://github.com/minicli/minicli) - A minimalist framework for command-line centric PHP apps.
-- [GDaisy](https://github.com/erikaheidi/gdaisy) - A templating system for dynamically generating images with PHP-GD.
-- [Dynacover](https://github.com/erikaheidi/dynacover) - A CLI app to dynamically generate and upload profile covers to your Twitter profile, showing latest followers and other information.
-- [Librarian](https://github.com/librarianphp/librarian) - An experimental file-based CMS / markdown document indexer in PHP.
+- [Minicli](https://github.com/minicli/minicli) - Um framework minimalista para aplicações PHP em linha de comando.
+- [Librarian](https://github.com/librarianphp/librarian) - Um gerador de sites estático experimental em PHP baseado no Minicli (esse site inclusive é feito com ele).
+- [Autodocs](https://github.com/erikaheidi/autodocs) - Um projeto experimental criado para auxiliar na automação de documentação.
 
-## About this Site
-In this space I will be sharing tech related content in the subjects of software development, Linux, containers, and also 3D printing, which is one of my favorite hobbies.
+No meu [profile do GitHub](https://github.com/erikaheidi) você vai encontrar bem mais coisas, porém esses são os meus favoritos no momento =)
+
+## Sobre esse Site
+Nesse espaço eu estarei compartilhando conteúdo técnico sobre desenvolvimento de software, Linux, containers, e também impressão e design 3D, que é uma das minhas paixões.
 
 ## Links
 
