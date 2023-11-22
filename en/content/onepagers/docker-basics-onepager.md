@@ -136,7 +136,7 @@ The `${PWD}` shell variable contains the current directory location. The volume 
 
 ## Purging Docker Resources
 
-Some resources are not removed once a container is terminated; that is the case with named volumes. Images can also leave a big footprint in your system, think gygabites of space from unused layers and old images.
+Some resources are not removed once a container is terminated; that is the case with named volumes. Images can also leave a big footprint in your system, think gigabytes of space from unused layers and old images.
 
 The `prune` command can be used to clean up unused resources and free up space occupied by them. For instance, to purge unused volumes:
 
