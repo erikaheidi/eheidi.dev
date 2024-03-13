@@ -30,17 +30,6 @@
 
     <div class="border-l-2 border-l-gray-50 article-toc {% if not full %}hidden{% endif %} print:hidden">
         <div id="article-toc"></div>
-        <div class="mt-10">
-            {% if content.frontMatterHas('tags') %}
-                <div class="pb-6">
-                    <p><span class="icon is-medium"><i class="fas fas-lg fa-tags"></i></span>
-                        {% for tag in content.getAsArray('tags') %}
-                            <span class="px-3 py-2"><a href="{{ site_root() }}tag/{{ tag }}">{{ tag }}</a></span>
-                        {% endfor %}
-                    </p>
-                </div>
-            {% endif %}
-        </div>
 
 
         <div class="ml-4 mt-4">
