@@ -2,7 +2,7 @@
 title: Docker para Iniciantes
 description: Aprenda o básico de como usar o Docker para ambientes de desenvolvimento baseados em conteiners
 tags: docker, containers, iniciantes
-index: 10
+index: 20
 cover_image: https://cdn.erikaheidi.com/blog/docker-para-iniciantes.png
 ---
 
