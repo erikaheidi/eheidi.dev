@@ -6,15 +6,13 @@ index: 10
 cover_image: https://onlinux.erikaheidi.com/ubuntu2404/ubuntu2404-guide.png
 ---
 
-## Como instalar o Ubuntu 24.04 LTS (Noble Numbat)
-
 O mais recente lançamento LTS (suporte de longo prazo) da distribuição Ubuntu Linux chama-se *Noble Numbat*. Neste guia passo a passo com prints de tela, veremos como instalar o Ubuntu 24.04 em um computador ou máquina virtual.
 
-**Preparação**
+## Preparação
 
 Antes de prosseguir, certifique-se de baixar o arquivo ISO mais recente do Ubuntu 24.04 em sua [Página de Downloads](https://ubuntu.com/download/desktop).
 
-**Faça backup primeiro!!!**
+### Faça backup primeiro!!!
 
 **Certifique-se** de fazer backup de todos os arquivos importantes se você estiver reinstalando seu sistema como um todo. Seu disco será apagado, portanto, você precisa salvar seus arquivos importantes em outro lugar. Minha ordem de prioridade pessoal ao criar backups é a seguinte:
 
@@ -27,13 +25,13 @@ Antes de prosseguir, certifique-se de baixar o arquivo ISO mais recente do Ubunt
 
 Isso dependerá inteiramente de como você usa este computador/sistema, mas não se esqueça desses arquivos ocultos e, especialmente, de suas chaves SSH.
 
-**Instalando em um computador comum**
+### Instalando em um desktop
 
 A maneira mais fácil de instalar o Ubuntu 24.04 em um computador comum (PC/Laptop) é usando um disco de inicialização. Você precisará de uma mídia removível para criar um disco de inicialização usando o arquivo ISO que você baixou. [Este guia](https://onlinux.systems/guides/20230515_how-to-create-a-ubuntu-2304-startup-disk-on-ubuntu-systems/) explica como criar tal disco em sistemas Ubuntu, e [este outro guia](https://ubuntu.com/tutorials/install-ubuntu-desktop#3-create-a-bootable-usb-stick) do blog do Ubuntu mostra como criar um disco inicializável em outros sistemas.
 
 Assim que tiver o disco pronto, inicialize o computador com o disco e selecione "Try or Install Ubuntu" quando solicitado. Você entrará no programa de instalação.
 
-**Instalando em uma Máquina Virtual**
+### Instalando em uma Máquina Virtual
 
 Você pode usar este guia para instalar o Ubuntu 24.04 em uma VM do VirtualBox (ou similar). Na verdade, usei uma VM do VirtualBox para tirar os prints deste guia, depois de atualizar meu próprio laptop pessoal com o Ubuntu 24.04.
 
@@ -43,7 +41,7 @@ Para fazer isso, crie uma nova máquina virtual no VirtualBox e selecione o arqu
 
 Selecione pelo menos 1 GB de RAM e 10 GB de espaço em disco ao criar a VM. Assim que estiver pronto, você pode inicializar a VM. Selecione "Try or Install Ubuntu" quando solicitado. Você entrará no programa de instalação.
 
-**Instalando o Sistema**
+## Instalando o Sistema
 
 Para começar, selecione o idioma desejado para a instalação. Aqui vamos usar o inglês (English).
 ![Ubuntu 24.04 installation step 01](https://onlinux.erikaheidi.com/ubuntu2404/01.png)
@@ -93,12 +91,12 @@ Agora você deverá ver a tela de instalação do Ubuntu 24.04, enquanto o progr
 Quando a instalação terminar, você será solicitado a remover o disco de boot e reiniciar o computador. Assim que a inicialização for concluída, você será solicitado a fornecer a senha para descriptografar o disco e iniciar o Ubuntu. Em seguida, você acessará a tela de login, onde deverá fornecer a senha que você criou para seu usuário para fazer login. Seu Ubuntu foi instalado com sucesso! Agora você pode personalizar sua aparência e instalar novos softwares.
 ![Ubuntu 24.04 installation step 16](https://onlinux.erikaheidi.com/ubuntu2404/16.png)
 
-**Personalizando a Aparência e a Dock**
+## Personalizando a Aparência e o Dock
 
 Para personalizar seu papel de parede e outras configurações de aparência, clique com o botão direito do mouse na área de trabalho e escolha "Change Background" (Alterar Plano de Fundo) no menu. Nesta tela, você pode alterar o plano de fundo e o estilo do tema (claro/escuro e a cor de destaque).
 ![Ubuntu 24.04 installation step 17](https://onlinux.erikaheidi.com/ubuntu2404/17.png)
 
-Para alterar a aparência da Dock, vá para o item "Ubuntu Desktop" no menu esquerdo. Eu, pessoalmente, prefiro ter a dock na parte inferior da tela e com a opção de ocultar automaticamente ativada. Estas são as minhas alterações:
+Para alterar a aparência da Dock, vá para o item "Ubuntu Desktop" no menu esquerdo. Eu, pessoalmente, prefiro ter o dock na parte inferior da tela e com a opção de ocultar automaticamente ativada. Estas são as minhas alterações:
 
 - Auto-Hide Dock - habilitado
 - Panel Mode - desabilitado
