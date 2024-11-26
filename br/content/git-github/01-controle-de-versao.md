@@ -3,7 +3,7 @@ title: Introdução ao Controle de Versão com Git
 description: Aprenda o básico sobre controle de versão e como começar a usar o Git
 tags: git, iniciantes
 index: 1
-cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7zbul4bobq09n75li77j.png
+cover_image: https://cdn.erikaheidi.com/git-github/ptbr01.png
 ---
 
 O Git é um sistema de controle de versão que permite rastrear alterações no código, colaborar com outras pessoas e gerenciar múltiplas versões de um projeto. Ao dominar o Git na linha de comando, pessoas desenvolvedoras ganham flexibilidade para executar várias tarefas com eficiência, como criar e alternar entre branches, resolver conflitos de merge e gerenciar repositórios remotos.

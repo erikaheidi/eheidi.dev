@@ -1,9 +1,9 @@
 ---
 title: Criando e Personalizando o seu Profile no GitHub
-description: Aprenda o básico sobre controle de versão e como começar a usar o Git
+description: Veja passo a passo como criar uma nova conta no GitHub e personalizar o seu profile com um README.
 tags: git, iniciantes
 index: 2
-cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7zbul4bobq09n75li77j.png
+cover_image: https://cdn.erikaheidi.com/git-github/ptbr02.png
 ---
 
 Continuando nosso curso relâmpago de Git e GitHub, agora aprenderemos mais sobre o GitHub e como estabelecer sua presença nesta plataforma, onde você pode começar a compartilhar seu código e contribuir para projetos de código aberto.
