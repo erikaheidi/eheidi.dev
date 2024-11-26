@@ -28,7 +28,7 @@ Após fazer login, serão feitas algumas perguntas para que o GitHub possa lhe p
 
 ![Getting started with GitHub](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gwuthxephys53yf9omh4.png)
 
-Após essa enquete sobre preferências, você terá de escolher entre “Free” (Gratuito) ou “Pro” (Avançado). Se você é estudante, pode aplicar para o GitHub Student Pack, o que lhe dará acesso *Pro* gratuitamente. Começar com o *Free* é uma boa idéia, já que você pode fazer o upgrade para *Pro* facilmente depois caso necessário. O plano gratuito oferece recursos suficientes para quem está começando.  
+Após essa enquete sobre preferências, você terá de escolher entre “Free” (Gratuito) ou “Pro” (Avançado). Se você é estudante, pode aplicar para o [GitHub Student Pack](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student), o que lhe dará acesso *Pro* gratuitamente. Começar com o *Free* é uma boa idéia, já que você pode fazer o upgrade para *Pro* facilmente depois caso necessário. O plano gratuito oferece recursos suficientes para quem está começando.  
 
 ![Choosing your Plan on GitHub](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kw2228c72fraf3o7yvcc.png)
 
