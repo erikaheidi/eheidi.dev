@@ -2,7 +2,7 @@
 title: Trabalhando com Branches e Pull Requests
 description: Aprenda a trabalhar com branches e como criar, aprovar, a fazer o merge de pull requests no GitHub.
 tags: git, iniciantes
-index: 3
+index: 4
 cover_image: https://cdn.erikaheidi.com/git-github/ptbr03.png
 ---
 
