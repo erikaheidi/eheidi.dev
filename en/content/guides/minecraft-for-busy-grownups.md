@@ -8,13 +8,15 @@ cover_image: https://cdn.erikaheidi.com/minecraft/minecraft.png
 
 Whether or not you have kids, there is a high chance you have heard about Minecraft. The pixelated look with characters made out of blocks became an iconic brand that most people recognize even if they have never played the game before.
 
-Minecraft was originally released in 2011 by Mojang Studios, with Microsoft buying the brand later on in 2014. It has since become the [best-selling video game of all time](https://en.wikipedia.org/wiki/List_of_best-selling_video_games), with over 300 million copies sold. Often cited as one of the greatest video games ever created, Minecraft is also often used in [educational environments](https://www.gamespot.com/articles/minecraft-in-education-how-video-games-are-teaching-kids/1100-6400549/) as a tool to teach geography, chemistry, programming, among other subjects. There's even a [movie](https://en.wikipedia.org/wiki/A_Minecraft_Movie) to be released next year!
+Minecraft was originally released in 2011 by Mojang Studios, with Microsoft buying the brand later on in 2014. It has since become the [best-selling video game of all time](https://en.wikipedia.org/wiki/List_of_best-selling_video_games), with over 300 million copies sold. Often cited as one of the greatest video games ever created, Minecraft is also often used in [educational environments](https://www.gamespot.com/articles/minecraft-in-education-how-video-games-are-teaching-kids/1100-6400549/) as a tool to teach geography, chemistry, programming, among other subjects. There's even a [movie](https://en.wikipedia.org/wiki/A_Minecraft_Movie) to be released this year!
 
 There are many different ways in which you can play Minecraft, but overall, Minecraft is a lovely game to play online with friends and family. In this straightforward guide, I will share what I learned as a newbie parent gamer setting up Minecraft worlds to play with my daughter and her friends. I won't go into too many details about how to play the game, just enough so that you can start building and exploring your Minecraft worlds.
 
+![A view from one of our many houses in our Minecraft World](https://cdn.erikaheidi.com/minecraft/minecraft_boredcatmom.png)
+
 ## TL;DR
-- There are two main versions of Minecraft: Bedrock and Java. Bedrock runs on consoles and on Windows systems, while Java runs on macOS, Linux, and Windows. These are not compatible with each other, so you have to choose depending on your available devices. Bedrock is the most versatile and multi-platform.
-- You'll need to buy Minecraft, either from their website (for PC) or from your game console digital store (PlayStation, Nintendo Switch, Xbox…). On Windows, it is possible to play both Java and Bedrock.
+- There are two main versions of Minecraft: Bedrock and Java. Bedrock runs on consoles, Android and iOS, and on Windows systems, while Java runs on macOS, Linux, and Windows. These are not compatible with each other, so you have to choose depending on your available devices. Bedrock is the most versatile and multi-platform.
+- You'll need to buy Minecraft, either from their website (for PC) or from your game console digital store (PlayStation, Nintendo Switch, Xbox…). On Windows, it is possible to play both Java and Bedrock. Minecraft is also available for Android and iOS devices and can be played on mobile.
 - Playing with remote friends in a shared world requires a Minecraft server or a Minecraft Realm. Setting up a server can be lots of work, but more folks can join. Realms are managed instances with a limited number of concurrent players (up to 11), they are easy to set up and require no maintenance. There are Realms for Java and for Bedrock.
 
 
@@ -24,28 +26,32 @@ To play Minecraft with friends and family, you will need:
 
 * A [Microsoft](https://signup.live.com) account;
 * A suitable device that is compatible with the version of Minecraft your friends are playing;
-* The Minecraft software. If playing on a PC, you'll need to purchase [Minecraft Java & Bedrock PC edition](https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc). If playing from a console such as Nintendo Switch, Xbox, or PlayStation, you'll need to purchase the game from your console digital store.
+* The Minecraft software. If playing on a PC, you'll need to purchase [Minecraft Java & Bedrock PC edition](https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc). If playing from a console such as Nintendo Switch, Xbox, or PlayStation, you'll need to purchase the game from your console digital store. If playing from a mobile or tablet, you'll need to purchase the game from the Google Play Store or Apple App Store.
 
+For people used to working on a PC daily, it might be easier to play the PC version, using your keyboard and mouse. I personally prefer that over playing with a controller. My daughter, on the other hand, finds it easier to play with the controller, since she is not used to keyboard and mouse operation. On tablets and mobile, the game is played with touch controls, which can be a bit tricky and less precise than using a controller or a keyboard and mouse. It's still a good option to play on the go, and also for kids who are used to playing games on mobile and tablets.
 
-For people used to working on a PC daily, it might be easier to play the PC version, using your keyboard and mouse. I personally prefer that over playing with a controller. My daughter, on the other hand, finds it easier to play with the controller, since she is not used to keyboard and mouse operation.
+There might be some differences in gameplay between devices, and also in the depth of view. In my experience, when playing on a console, the depth of view is limited, and you can't see as far as you can when playing on a PC. Here's a comparison of the depth of view between playing on a console or tablet and playing on a Windows PC with an NVIDIA graphics card (Bedrock edition):
 
+![view depth differences between playing on a console vs playing on windows PC](https://cdn.erikaheidi.com/minecraft/minecraft-view-devices.png)
+
+## Choosing the Right Version
 One thing a lot of people don't realize is that there are different versions of the Minecraft software, and they are not compatible with all devices. The original is the Java version, which is the only version compatible with Linux and macOS systems. The Java version has limitations, but if you don't have a Windows machine you can roll with that one (in this case, everybody else in the group must use the Java version too).
 
-The Bedrock edition runs on consoles and also on Windows computers. This version is the most widely compatible version of Minecraft at the moment, since folks can join from Nintendo Switch, PlayStation, Xbox, and also from a Windows PC.
+The Bedrock edition runs on consoles and also on Windows computers, Android and iOS devices. This version is the most widely compatible version of Minecraft at the moment, since folks can join from Nintendo Switch, PlayStation, Xbox, mobile and tablets, and also from a Windows PC.
 
 ### Minecraft Compatibility Matrix
 
 Before opting for a platform, it's good to know which platform your friends are playing on, so that you can make sure you're purchasing a compatible version. Overall, Bedrock is preferred, since it is compatible with more platforms, but that will require you to use Windows if you're playing on a PC. I haven't tried running Minecraft from a virtual machine, so I do not know if that is possible at all. Here at home, I play on an older Windows notebook, while my daughter plays on her Nintendo Switch.
 
-|  | Windows | Linux / macOS | Consoles |
-| :---- | :---- | :---- | :---- |
-| **Windows** | Java and Bedrock | Java only | Bedrock only |
-| **Linux / macOS** | Java only | Java only | X |
-| **Consoles** | Bedrock only | X | Bedrock only |
+|  | Windows | Linux / macOS | Consoles      | Android and iOS |
+| :---- | :---- | :---- |:--------------| :---- |
+| **Windows** | Java and Bedrock | Java only | Bedrock only  | Bedrock only |
+| **Linux / macOS** | Java only | Java only | X             | X |
+| **Consoles** | Bedrock only | X | Bedrock only  | Bedrock only |
 
 ## Understanding Minecraft Worlds, Servers, and Realms
 
-The first thing you need to understand about the Minecraft experience is that the game happens in a sandbox world, and you can have several worlds with different patches and mods applied. Mods can change the basic gameplay and introduce different animals, textures, and functionalities.
+The first thing you need to understand about the Minecraft experience is that the game happens in a sandbox world, and you can have several worlds with different patches and mods applied. Mods can change the basic gameplay and introduce different animals, textures, and functionalities. Be aware that some texture packs modify the basic behavior of the game, which disables the ability to earn achievements. Starting with the vanilla version is a good idea, so you can get acquainted with the basic gameplay and controls.
 
 Worlds can be played offline, but it's not all that much fun to play by yourself. To be able to invite friends over to your world so that you can play in a private, shared environment, you'll need either a Minecraft Server or a Minecraft Realm.
 
@@ -86,15 +92,17 @@ As mentioned briefly in the introduction, Minecraft has essentially 3 different 
 
 ![creepers in a cavern](https://cdn.erikaheidi.com/minecraft/mobs.jpg)
 
-This is the classic, default mode of playing Minecraft. In survival mode, you have to mine blocks to build everything from scratch – including tools. You can choose from 4 different difficulty levels: peaceful, easy, normal, and hard. In survival mode, hostile [mobs](https://beebom.com/minecraft-mobs-complete-list/) will spawn at night, and they can hurt you and destroy your buildings. You also need to eat food, otherwise you'll starve to death.
+This is the classic, default mode of playing Minecraft. In survival mode, you have to mine blocks to build everything from scratch – including tools. You can choose from 4 different difficulty levels: peaceful, easy, normal, and hardcore. In survival mode, hostile [mobs](https://beebom.com/minecraft-mobs-complete-list/) will spawn at night, and they can hurt you and destroy your buildings. You also need to eat food, otherwise you'll starve to death.
 
-If you want the excitement of mining and building your world from scratch but don't want to deal with mobs and food, you can choose "Peaceful" mode, and nothing will harm you. You can still get hurt in other ways, like falling from a high, but mobs won't spawn at night, and you don't need to eat. This is an excellent way to get started and learn how to play the game, how to build your tools, and where to find resources. I definitely recommend Peaceful Survival mode for anyone who is starting, and also for those who prefer a more chill gameplay.
+If you want the excitement of mining and building your world from scratch but don't want to deal with mobs and food, you can choose "Peaceful" mode, and nothing will harm you. You can still get hurt in other ways, like falling from a high, but mobs won't spawn at night, and you don't need to eat. This is an excellent way to get started and learn how to play the game, how to build your tools, and where to find resources. I definitely recommend Peaceful Survival mode for anyone who is starting, and also for those who prefer a more chill gameplay. Just be aware that some resources and materials are only available from mobs, so you'll need to switch to a higher difficulty level if you want to get those resources.
+
+In hardcore mode, you only have one life, and if you die, you lose everything. This is a good mode for experienced players who want a challenge.
 
 ### Creative Mode
 
 In this mode, you don't need to mine or build things, because you'll have infinite resources directly available from your inventory. You can also fly, which makes things a lot easier for building. This mode is good for building big worlds and creating experiences for other users, or to simply build grand things without having to collect all the materials you'd normally need.
 
-I confess that I started playing creative mode because I was too lazy, but I quickly became bored, because there was no goal or progression. Nowadays, I prefer Peaceful Survival mode, where I still get all the excitement of mining new materials and building things from scratch, without the annoyance of hostile mobs.
+I confess that I started playing creative mode because I was too lazy, but I quickly became bored, because there was no goal or progression. Nowadays, I prefer Survival mode, where I get all the excitement of mining new materials and building things from scratch. I have played a lot in Peaceful mode to avoid the annoyance of hostile mobs, but it is more fun to play in Easy or Normal mode, where you have to be careful and plan your moves.
 
 ### Adventure Mode
 
@@ -115,7 +123,7 @@ On Java edition, you need to access your profile in the Minecraft website, and a
 
 ### Creating an Offline World
 
-The best starting point to get acquainted with the gameplay and controls is by creating a new offline world that can serve as your sandbox.
+The best starting point to get acquainted with the gameplay and controls is by creating a new offline world that can serve as your sandbox. If you hit the "Create New" button on the main screen, you'll be able to choose the world type, the game mode, and the difficulty level. Give your world a name and hit "Create" to get started. This world will then be listed within your "Worlds" and you can access it offline at any time.
 
 ### Joining a Realm
 
@@ -125,22 +133,58 @@ If you have an invitation for a Realm, or if you have subscribed to Realms, you 
 
 ### Basic Controls
 
-When playing on a computer, you can move with the keys **a**, **w**, **s**, **d**. Left mouse click will mine or hit an object, while right mouse click is for interacting (for instance, in the craft table). Moving the mouse moves the camera. To drop an item, use the **q** key. The inventory is available with the **e** key.
+When playing on a computer, you can move with the keys **a**, **w**, **s**, **d**. Left mouse click will mine or hit an object, while right mouse click is for placing and interacting (for instance, in the craft table). Moving the mouse moves the camera. To drop an item, use the **q** key. The inventory is available with the **e** key. To run, typically you'll double-tap the **w** key.
 
-When playing on a console, the main action button will be for mining and hitting, while the second action button will be for interacting with items. Left stick for moving, right stick for moving the camera view.
+When playing on a console, you'll typically use the "ZR" button for mining and hitting, while the "ZL" button will be for placing items and interacting with items. Left stick for moving, right stick for moving the camera view. Main action button to jump, and second action button to crouch. Running is usually done by pressing the left stick.
+
+When playing on Android or iOs, you can move by dragging your finger on the screen, and you can interact with objects by tapping on them. It is also possible to connect a controller or a keyboard and mouse to your mobile device to play Minecraft. I have tried this with my Android tablet and it works well, although I still prefer playing on the PC for a better depth of view.
 
 You'll be working a lot with your inventory and in your craft table. Use the search feature to search for recipes when you want to craft something specific. New recipes will unlock as you discover new materials.
 
-### The Minecraft World
+## The Minecraft World
+Now that you have your character set up and you know how to move around and interact with objects, it's time to explore the world. The Minecraft world is vast and full of resources, and you can build and mine almost anything you can imagine! There's a lot to do ande to explore. Let's learn some basics to help you get started in the best possible way.
 
-As worlds are randomly generated, your spawn place (or the place where you'll land when you join the game) is typically determined at random, and you can end up in any of the available [biomes](https://minecraft.fandom.com/wiki/Biome) depending on how your world map was generated. Minecraft biomes separate worlds into different environments, such as desert, mountains, beach, forest, and more. Each biome has its own geographical features and resources. If you are not satisfied with where you landed, you can always migrate to another area. Just keep moving in the same direction, and you'll definitely find a different biome where you can live.
+### Biomes and Spawn Points
+As worlds are randomly generated, your spawn place (or the place where you'll land when you join the game) is typically determined at random, and you can end up in any of the available [biomes](https://minecraft.fandom.com/wiki/Biome) depending on how your world map was generated. When creating the world, is also possible to choose from a list of templates that determine a preferred location as world spawn point.
 
-When you sleep in a bed, a new spawn place is set, so you will always return to your "new home". If you migrate, make sure to find a spot where you can craft a bed so you don't go back to the original spawn location in case you die or leave the game.
+Minecraft biomes separate worlds into different environments, such as desert, mountains, beach, forest, and more. Each biome has its own geographical features and resources. If you are not satisfied with where you landed, you can always migrate to another area. Just keep moving in the same direction, and you'll definitely find a different biome where you can live!
+
+When you sleep in a bed, a new spawn place is set, so you will always return to your "new home". If you migrate, make sure to find a spot where you can craft a bed so you don't go back to the original spawn location in case you die and respawn.
+
+### Villages and Structures
+In addition to biomes, you'll also find villages and other structures in the world. Villages are populated by villagers, which are neutral mobs that can trade with you. You can also find temples, dungeons, and other structures that contain valuable resources and treasures. Exploring the world is a good way to find new materials and recipes. Just be careful with hostile mobs that can spawn in dark places, such as caves and dungeons.
+
+If you're lucky enough to find a village close to the world spawn point, that is an excellent first place to build a base. You'll find food and other resources, and you can also trade with villagers. Villages are also a good place to find a bed, so you can set your spawn point and avoid going back to the original spawn location.
+
+### Mining and Crafting
+Mining is the main activity in Minecraft. You'll need to mine blocks to get resources, and then you'll use these resources to craft tools, weapons, and buildings. The game has a crafting system that allows you to create new items by combining materials in a specific pattern. You can craft a variety of items, from tools to weapons, armor, and even food. The crafting system is very intuitive, and you can use the search feature to find recipes for items you want to craft.
+
+The first thing you'll need to do is to mine some wood. You can punch trees to get wood blocks, and then you can use these blocks to craft a **crafting table**. With the crafting table, you can craft more items and tools. You'll need to mine stone to craft better tools, and you'll need to mine iron to craft even better tools and armor. The game has a progression system that allows you to unlock new recipes as you discover new materials.
+
+### Hostile Mobs
+
+Minecraft has a variety of hostile mobs that can hurt you. Most hostile mobs spawn only at night and in dark places, and some of them burn in the sun. When the sun starts to go down, you have to seek shelter to avoid being attacked by mobs. You can also craft torches to light up dark places and avoid mobs from spawning. Some mobs are neutral and will only attack if you attack first. A few of the most common hostile mobs are:
+
+* **Zombies**: slow and weak, but they can spawn in groups and overwhelm you. They burn in the sun, so you can avoid them by staying in the light.
+* **Drowned**: these are basically water zombies. Some of them carry tridents, which can be dangerous, so be careful when swimming in the ocean.
+* **Skeletons**: they shoot arrows at you from a distance, so they can be really annoying.
+* **Creepers**: they explode when they get close to you, so you have to be careful. They can destroy your buildings, so it's best to avoid them or lure them to areas where they can explode without damaging your house. For me, creepers are the worst.
+* **Spiders**: they can climb walls and jump at you, so they can be hard to avoid. They are easy to kill, though. Spiders are neutral during the day, but they become hostile at night.
+* **Endermen**: they are tall and black, with purple eyes. A very enigmatic figure. They are neutral unless you look at them, so it's best to avoid eye contact! It's hard because they are kinda beautiful in a way, you feel like you want to look at them, but you shouldn't. They teleport, so they can go wherever you are and attack you if you stare at them.
+* **Witches**: they throw potions at you and are also quite hard to kill, so it's best to avoid them altogether!
+
+Hostile mobs cannot open doors or gates, so you can use these to protect yourself from them. You can also build a wall around your house to keep mobs away. Just be aware that some mobs can spawn inside your house if it's not well lit, so make sure to use plenty of torches. And always keep your doors and gates closed!
+
+### Farming and Breeding
+
+You can farm animals and plants in Minecraft. You can breed animals to get more of them, and you can also grow plants to get food. To breed animals, you just need to feed them with their favorite food. For instance, you can breed cows with wheat, and you can breed chickens with wheat seeds.
+
+Farming typically requires a **hoe** to prepare the terrain, and you'll also need some water nearby to keep the soil moist. A quick way to build a farm is finding a coastal area, where you can build a farm close to the water. You can also build an irrigation system to keep your farm watered. You can use a bucket to carry water from a water source to your farm, but that requires iron to craft the bucket.
 
 ## Things to be Aware - Top Tips
 
-* You can mine some things with your bare hands, but you'll typically need a tool that is right for the job in order to be efficient.
-* **Pickaxes** are for mining stone. For wood, you'll need an **axe**. For dirt / soil you'll need a **shovel**.
+* You can mine some things with your bare hands, but you'll typically need a tool that is right for the job in order to be efficient. Some resources can only be mined with specific tools.
+* **Pickaxes** are for mining stone. For wood, you'll need an **axe**. For dirt / soil you'll need a **shovel**. For planting seeds, you need a **hoe**. For shearing wool from sheep, you need **sheers**.
 * Some materials require a stronger tool to be mined. For instance, you'll need an iron pickaxe for mining gold and redstone.
 * You can get hurt if you fall from a high, so be careful when going down.
 * When digging down, be careful to not just dig straight down, create a staircase so you can climb back up.
