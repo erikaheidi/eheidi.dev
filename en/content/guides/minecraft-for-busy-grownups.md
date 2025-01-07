@@ -12,7 +12,7 @@ Minecraft was originally released in 2011 by Mojang Studios, with Microsoft buyi
 
 There are many different ways in which you can play Minecraft, but overall, Minecraft is a lovely game to play online with friends and family. In this straightforward guide, I will share what I learned as a newbie parent gamer setting up Minecraft worlds to play with my daughter and her friends. I won't go into too many details about how to play the game, just enough so that you can start building and exploring your Minecraft worlds.
 
-{% youtube YjAsKub_TRE %}
+![A view from one of our many houses in our Minecraft World](https://cdn.erikaheidi.com/minecraft/minecraft_boredcatmom.png)
 
 ## TL;DR
 - There are two main versions of Minecraft: Bedrock and Java. Bedrock runs on consoles, Android and iOS, and on Windows systems, while Java runs on macOS, Linux, and Windows. These are not compatible with each other, so you have to choose depending on your available devices. Bedrock is the most versatile and multi-platform.
@@ -30,6 +30,11 @@ To play Minecraft with friends and family, you will need:
 
 For people used to working on a PC daily, it might be easier to play the PC version, using your keyboard and mouse. I personally prefer that over playing with a controller. My daughter, on the other hand, finds it easier to play with the controller, since she is not used to keyboard and mouse operation. On tablets and mobile, the game is played with touch controls, which can be a bit tricky and less precise than using a controller or a keyboard and mouse. It's still a good option to play on the go, and also for kids who are used to playing games on mobile and tablets.
 
+There might be some differences in gameplay between devices, and also in the depth of view. In my experience, when playing on a console, the depth of view is limited, and you can't see as far as you can when playing on a PC. Here's a comparison of the depth of view between playing on a console or tablet and playing on a Windows PC with an NVIDIA graphics card (Bedrock edition):
+
+![view depth differences between playing on a console vs playing on windows PC](https://cdn.erikaheidi.com/minecraft/minecraft-view-devices.png)
+
+## Choosing the Right Version
 One thing a lot of people don't realize is that there are different versions of the Minecraft software, and they are not compatible with all devices. The original is the Java version, which is the only version compatible with Linux and macOS systems. The Java version has limitations, but if you don't have a Windows machine you can roll with that one (in this case, everybody else in the group must use the Java version too).
 
 The Bedrock edition runs on consoles and also on Windows computers, Android and iOS devices. This version is the most widely compatible version of Minecraft at the moment, since folks can join from Nintendo Switch, PlayStation, Xbox, mobile and tablets, and also from a Windows PC.
