@@ -1,3 +1,3 @@
 # Netlify Redirects
 
-/guides/minecraft-for-busy-grownups/ /minecraft/introduction-for-busy-grownups/ 301
+/guides/minecraft-for-busy-grownups /minecraft/introduction-for-busy-grownups 301!
