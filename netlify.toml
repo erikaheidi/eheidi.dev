@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/guides/minecraft-for-busy-grownups"
+  to = "/minecraft/introduction-for-busy-grownups"
+  status = 301
+  force = true
+  query = {path = ":path"}
