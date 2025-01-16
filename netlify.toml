@@ -3,4 +3,3 @@
   to = "/minecraft/introduction-for-busy-grownups"
   status = 301
   force = true
-  query = {path = ":path"}
