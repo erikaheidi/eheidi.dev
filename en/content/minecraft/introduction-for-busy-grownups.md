@@ -14,6 +14,8 @@ There are many different ways in which you can play Minecraft, but overall, Mine
 
 ![A view from one of our many houses in our Minecraft World](https://cdn.erikaheidi.com/minecraft/minecraft_boredcatmom.png)
 
+If you'd prefer a video introduction to Minecraft, check [The Bored Cat Family](https://www.youtube.com/watch?v=usdY6BO_QLc&list=PL0D32haHBErz-CxrNwOpWQJJpam0pPqNC&index=1) on YouTube, where I share the most important bits to get started quickly.
+
 ## TL;DR
 - There are two main versions of Minecraft: Bedrock and Java. Bedrock runs on consoles, Android and iOS, and on Windows systems, while Java runs on macOS, Linux, and Windows. These are not compatible with each other, so you have to choose depending on your available devices. Bedrock is the most versatile and multi-platform.
 - You'll need to buy Minecraft, either from their website (for PC) or from your game console digital store (PlayStation, Nintendo Switch, Xbox…). On Windows, it is possible to play both Java and Bedrock. Minecraft is also available for Android and iOS devices and can be played on mobile.
